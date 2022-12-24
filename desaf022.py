@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome completo')).strip()
+msc = nome.upper()
+min = nome.lower()
+corte = nome.split()
+num = len(nome) - nome.count(' ')
+num1 = len(corte[0])
+print('Nome maiusculo: {} \n Nome minusculo: {} \n Numero de letras: {} \n Numero de letras primeiro nome: {} ' .format(msc,min,num,num1))
