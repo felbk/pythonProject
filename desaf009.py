@@ -1,0 +1,12 @@
+tn = input('numero:')
+n = int(tn)
+print('{} x 1 = {} \n'
+      '{} x 2 = {} \n'
+      '{} x 3 = {} \n'
+      '{} x 4 = {} \n'
+      '{} x 5 = {} \n'
+      '{} x 6 = {} \n'
+      '{} x 7 = {} \n'
+      '{} x 8 = {} \n'
+      '{} x 9 = {} \n'
+      '{} x 10 = {}'.format(tn,n*1,tn,n*2,tn,n*3,tn,n*4,tn,n*5,tn,n*6,tn,n*7,tn,n*8,tn,n*9,tn,n*10,))
